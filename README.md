@@ -62,8 +62,8 @@ DB_DATABASE=database/database.sqlite
 
 ## ⚙️ 3. How It Works
 
-1. **Server creates a Task** — tells the client to upload a file.
-2. **Client polls the server** — asks if any task is pending.
+1. **Server creates a Task** - tells the client to upload a file.
+2. **Client polls the server** - asks if any task is pending.
 3. **If task found**, the client uploads a local file to the server.
 4. Server saves the file to `storage/app/uploads` and marks the task `completed`.
 
@@ -101,6 +101,8 @@ The uploaded file will appear in:
 ```
 storage/app/uploads/
 ```
+
+OR you can manually test in file `test.http`
 
 ---
 
