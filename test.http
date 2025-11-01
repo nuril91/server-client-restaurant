@@ -1,0 +1,9 @@
+### Create Task from server
+POST http://server-client-restaurant.test/api/tasks
+Accept: application/json
+Content-Type: application/json
+
+{
+    "client_id":"client_01",
+    "action":"send_file"
+}
